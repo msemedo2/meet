@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:500);
 .App {
 	text-align: center;
-	padding: 2% 5%;
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
 }
 
 .App * {
@@ -26,27 +27,39 @@ p {
 
 input[type='text'],
 input[type='number'] {
-	padding: 8px 6px 8px 10px;
+	padding: 10px 6px 8px 10px;
 	border-radius: 4px;
 	outline: none;
-	border: 1px solid #ccc;
+	border: 0.5px solid #56baba;
 	font-size: 14px;
 	line-height: 20px;
 	align-self: center;
 	height: 38px;
+	text-align: center;
+	font-weight: bold;
 }
 
 .city {
 	width: 250px;
+	background-color: #37aeae;
+	padding: 10px;
+}
+
+.number-input {
+	margin-top: 10px;
+	background-color: #56baba;
+	padding: 10px;
 }
 
 .CitySearch {
 	display: flex;
 	flex-direction: column;
 	flex-basis: 300px;
-	max-width: 300px;
+	max-width: 100%;
 	margin: auto;
 	position: relative;
+	background-color: #17a1a1;
+	padding: 60px 60px 80px;
 }
 
 .suggestions {
@@ -55,7 +68,7 @@ input[type='number'] {
 	z-index: 2;
 	align-self: center;
 	margin: 0;
-	top: 43px;
+	top: 99px;
 	font-size: 14px;
 	box-shadow: 10px 10px 16px -12px rgba(0, 0, 0, 0.75);
 }
@@ -65,6 +78,12 @@ input[type='number'] {
 	padding: 8px 6px 8px 10px;
 	background-color: #eee;
 	cursor: default;
+}
+
+.EventList {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .suggestions > li:last-child {
@@ -77,12 +96,13 @@ input[type='number'] {
 }
 
 .event {
-	padding: 10px 10px 35px;
-	margin-bottom: 10px;
+	padding: 10px 30px 30px;
+	margin: 20px 30px;
 	text-align: left;
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	position: relative;
+	max-width: 900px;
 }
 
 .details-btn {
@@ -93,6 +113,23 @@ input[type='number'] {
 	border-radius: 4px;
 	outline: none;
 	cursor: pointer;
+}
+
+.event-showDetails-btn,
+.event-hideDetails-btn {
+	margin-top: 10px;
+	background-color: #fd8311;
+	border-radius: 28px;
+	border: 1px solid #b05b0b;
+	cursor: pointer;
+	color: #fff;
+	font-size: 17px;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+.event-showDetails-btn:hover {
+	background-color: #ff9311;
 }
 
 .name {
