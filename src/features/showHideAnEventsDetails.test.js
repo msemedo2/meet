@@ -1,10 +1,7 @@
 import { loadFeature, defineFeature } from 'jest-cucumber';
 import React from 'react';
 import App from '../App';
-import { mockData } from '../mock-data';
-import { mount, shallow } from 'enzyme';
-import CitySearch from '../CitySearch';
-import { extractLocations } from '../api';
+import { mount } from 'enzyme';
 
 const feature = loadFeature('./src/features/showHideAnEventsDetails.feature');
 
@@ -63,7 +60,7 @@ defineFeature(feature, (test) => {
 			AppWrapper.find('.event .event-hideDetails-btn').at(0).simulate('click');
 		});
 
-		then('The event details part of the event elemnt is collapsed.', () => {
+		then('The event details part of the event element is collapsed.', () => {
 			expect(AppWrapper.find('.event .event-details')).toHaveLength(0);
 		});
 	});
