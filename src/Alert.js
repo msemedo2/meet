@@ -9,6 +9,8 @@ class Alert extends Component {
 	getStyle = () => {
 		return {
 			color: this.color,
+			position: this.position,
+			top: this.top,
 		};
 	};
 
@@ -31,8 +33,16 @@ class ErrorAlert extends Alert {
 	constructor(props) {
 		super(props);
 		this.color = 'red';
+		this.position = 'relative';
+		this.top = '270px';
 	}
 }
 
-export { InfoAlert };
-export { ErrorAlert };
+class OfflineAlert extends Alert {
+	constructor(props) {
+		super(props);
+		this.color = '#c60';
+	}
+}
+
+export { InfoAlert, ErrorAlert, OfflineAlert };

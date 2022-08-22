@@ -255,4 +255,10 @@ input[type='number'] {
 	right: 0;
 	margin: 0 auto;
 	width: 600px;
+	display: block;
 }
+
+/* .ErrorAlert {
+	position: relative;
+	top: 270px;
+} */
