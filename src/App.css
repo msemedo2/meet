@@ -85,6 +85,7 @@ input[type='number'] {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	margin-top: 60px;
 }
 
 .suggestions > li:last-child {
@@ -257,8 +258,3 @@ input[type='number'] {
 	width: 600px;
 	display: block;
 }
-
-/* .ErrorAlert {
-	position: relative;
-	top: 270px;
-} */

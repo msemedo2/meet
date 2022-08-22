@@ -41,7 +41,9 @@ class ErrorAlert extends Alert {
 class OfflineAlert extends Alert {
 	constructor(props) {
 		super(props);
-		this.color = '#c60';
+		this.color = '#ff6600';
+		this.position = 'relative';
+		this.top = '300px';
 	}
 }
 
