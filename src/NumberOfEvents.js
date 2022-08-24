@@ -4,7 +4,7 @@ import { ErrorAlert } from './Alert';
 export class NumberOfEvents extends Component {
 	state = {
 		numberOfEvents: 32,
-		infoText: '',
+		infoText: '32',
 	};
 
 	handleInputChanged = (event) => {
