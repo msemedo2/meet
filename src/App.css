@@ -19,13 +19,15 @@ h4 {
 }
 
 a {
-	color: blue;
+	color: blue !important;
 }
 
 .App {
 	text-align: center;
 	height: 100vh;
 	font-family: 'Roboto', sans-serif;
+	max-width: 1500px;
+	margin: 0 auto;
 }
 
 .App * {
@@ -100,7 +102,7 @@ input[type='number'] {
 .suggestions > li {
 	text-align: left;
 	padding: 8px 6px 8px 10px;
-	background-color: #eee;
+	background-color: #9d9d9d;
 	cursor: default;
 }
 
@@ -281,4 +283,9 @@ input[type='number'] {
 	margin: 0 auto;
 	width: 600px;
 	display: block;
+}
+
+tspan,
+line {
+	fill: #fff !important;
 }

@@ -34,7 +34,7 @@ class ErrorAlert extends Alert {
 		super(props);
 		this.color = 'red';
 		this.position = 'relative';
-		this.top = '270px';
+		this.top = '250px';
 	}
 }
 
