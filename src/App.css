@@ -1,17 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:500);
 
 body {
-	background: url('https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2050&q=80');
+	background: url('https://images.unsplash.com/photo-1562504208-03d85cc8c23e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
 	min-height: 100vh;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	max-width: 80%;
 }
 
 h1 {
 	font-size: 3rem;
 	margin-bottom: 0;
+}
+
+h4 {
+	font-weight: 400;
+}
+
+a {
+	color: blue;
 }
 
 .App {
@@ -22,6 +31,7 @@ h1 {
 
 .App * {
 	box-sizing: border-box;
+	color: #fff;
 }
 
 ul {
@@ -45,7 +55,7 @@ input[type='number'] {
 	padding: 10px 6px 8px 10px;
 	border-radius: 4px;
 	outline: none;
-	border: 0.5px solid #56baba;
+	border: 0.5px solid #000;
 	font-size: 14px;
 	line-height: 20px;
 	align-self: center;
@@ -56,14 +66,14 @@ input[type='number'] {
 
 .city {
 	width: 250px;
-	background-color: #37aeae;
+	background-color: #9d9d9d;
 	padding: 10px;
 	margin-top: 10px;
 }
 
 .number-input {
 	margin-top: 10px;
-	background-color: #56baba;
+	background-color: #9d9d9d;
 	padding: 10px;
 }
 
@@ -115,11 +125,12 @@ input[type='number'] {
 	padding: 10px 30px 30px;
 	margin: 20px 30px;
 	text-align: left;
-	border: 1px solid #ccc;
-	border-radius: 4px;
+	border: 1px solid #000;
+	border-radius: 15px;
 	position: relative;
 	max-width: 900px;
 	width: 450px;
+	background: #9d9d9d;
 }
 
 .details-btn {
