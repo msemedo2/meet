@@ -1,4 +1,10 @@
-﻿_FEATURE 1: FILTER EVENTS BY CITY_
+﻿# Meet-App
+
+App built following a Test-Driven Development approach.
+
+It shows all the events from a public Google Calendar and allows the user to filter for specific cities.
+
+_FEATURE 1: FILTER EVENTS BY CITY_
 
 - As a **User**
 - I should be able to **filter events by city**
@@ -93,3 +99,23 @@ _FEATURE 5: DATA VISUALIZATION_
 - **Given** the user selected a city
 - **When** the user clicks on the city’s upcoming events
 - **Then** a chart will be listed with that city’s upcoming events
+
+### Dependencies
+
+- react ^ 18.2.0
+- react-dom ^ 18.2.0
+- axios ^ 0.27.2
+- recharts ^ 2.1.13
+- nprogress ^ 0.2.0
+
+### Tech
+
+- React
+- ReCharts
+- AWS Lambda
+- OAut2 (Google)
+- Testing: Jester/Enzyme/Jest-Cucumber/Puppeteer
+
+## **Authors**
+
+Miguel Semedo
