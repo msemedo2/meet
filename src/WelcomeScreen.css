@@ -11,6 +11,8 @@
 	position: fixed;
 	top: 0;
 	width: 100%;
+	position: absolute;
+	right: 0;
 }
 .login-button {
 	color: #494949;

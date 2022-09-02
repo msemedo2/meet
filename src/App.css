@@ -19,6 +19,9 @@ h4 {
 }
 
 a {
+	color: white !important;
+}
+.event-htmlLink {
 	color: blue !important;
 }
 
