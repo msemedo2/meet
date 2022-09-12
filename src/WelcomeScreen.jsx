@@ -31,6 +31,7 @@ function WelcomeScreen(props) {
 			<a
 				href="https://msemedo2.github.io/meet/privacy.html"
 				rel="nofollow noopener"
+				className="privacy"
 			>
 				Privacy policy
 			</a>

@@ -292,3 +292,7 @@ tspan,
 line {
 	fill: #fff !important;
 }
+
+.event-summary-title {
+	font-size: 2rem;
+}
