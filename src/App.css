@@ -7,7 +7,6 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	text-shadow: 3px 4px 7px #000c;
 }
 
 h1 {
@@ -39,6 +38,10 @@ a {
 	color: #fff;
 }
 
+.app-title {
+	text-shadow: 3px 4px 7px #000c;
+}
+
 ul {
 	padding: 0;
 	list-style: none;
@@ -66,7 +69,7 @@ input[type='number'] {
 	height: 38px;
 	text-align: center;
 	font-weight: bold;
-	background-color: #e4e4e4;
+	background-color: #c0c0c0;
 	background-image: url('https://www.transparenttextures.com/patterns/assault.png');
 	border: none;
 	box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px,
@@ -139,7 +142,7 @@ input[type='number'] {
 	position: relative;
 	max-width: 900px;
 	width: 450px;
-	background-color: #e4e4e4;
+	background-color: #c0c0c0;
 	background-image: url('https://www.transparenttextures.com/patterns/assault.png');
 	border: none;
 	box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px,

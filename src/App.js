@@ -110,7 +110,7 @@ class App extends Component {
 					/>
 				) : (
 					<div className="main-wrapper">
-						<h1>Meet App</h1>
+						<h1 className="app-title">Meet App</h1>
 						<CitySearch
 							locations={this.state.locations}
 							updateEvents={this.updateEvents}
