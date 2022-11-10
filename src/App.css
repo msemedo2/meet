@@ -7,6 +7,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	text-shadow: 3px 4px 7px #000c;
 }
 
 h1 {
@@ -59,13 +60,18 @@ input[type='number'] {
 	padding: 10px 6px 8px 10px;
 	border-radius: 4px;
 	outline: none;
-	border: 0.5px solid #000;
 	font-size: 14px;
 	line-height: 20px;
 	align-self: center;
 	height: 38px;
 	text-align: center;
 	font-weight: bold;
+	background-color: #e4e4e4;
+	background-image: url('https://www.transparenttextures.com/patterns/assault.png');
+	border: none;
+	box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px,
+		rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px,
+		rgb(0 0 0 / 9%) 0px -3px 5px;
 }
 
 .city {
@@ -129,12 +135,16 @@ input[type='number'] {
 	padding: 10px 30px 30px;
 	margin: 20px 30px;
 	text-align: left;
-	border: 1px solid #000;
 	border-radius: 15px;
 	position: relative;
 	max-width: 900px;
 	width: 450px;
-	background: #9d9d9d;
+	background-color: #e4e4e4;
+	background-image: url('https://www.transparenttextures.com/patterns/assault.png');
+	border: none;
+	box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px,
+		rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px,
+		rgb(0 0 0 / 9%) 0px -3px 5px;
 }
 
 .details-btn {
